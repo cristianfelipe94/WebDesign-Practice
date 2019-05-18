@@ -122,14 +122,12 @@ body {
   margin: 0 auto; }
 
 .bio-content-hidden {
-  background-color: red;
   height: 0;
   border-top: solid 4px #ba1f33;
   transition: 1s;
   overflow: hidden; }
 
 .bio-content-showing {
-  background-color: red;
   height: 100%;
   border-top: solid 4px #ba1f33;
   transition: 1s; }
