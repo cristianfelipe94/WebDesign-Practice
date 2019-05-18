@@ -1,3 +1,6 @@
-* {
-	font-family: 'Lora', serif;
-}
+@import 'General/general';
+@import 'TopMenu/hero';
+@import 'SearchedUser/avatar';
+@import 'Post/post';
+@import 'Related/related';
+@import 'Footer/footer';

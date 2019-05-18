@@ -1,0 +1,39 @@
+.head-component-size {
+	width: 100vw;
+	height: 151px;
+	position: relative;
+	overflow: hidden;
+}
+
+.company-title {
+	color: black
+}
+
+.company-main-logo {
+	width: 33px;
+}
+
+.herobanner-background-size {
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 100%;
+	height: auto;
+	z-index: -1;
+}
+
+.nav-menu-display {
+	display: flex;
+	border-top: solid 4px #ba1f33;
+}
+
+.nav-tab-color {
+	text-align: center;
+	color: white;
+	background-color: #44443f;
+	padding: 10px;
+}
+
+.nav-tab-color + .nav-tab-color  {
+	border-left: solid 1px white;
+}
