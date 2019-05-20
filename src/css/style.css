@@ -1,6 +1,5 @@
 * {
   font-family: 'Lora', serif;
-  width: 100%;
   margin: 0;
   display: block;
   padding: 0; }
@@ -19,11 +18,18 @@ body {
   position: relative;
   overflow: hidden; }
 
+.company-icon-position {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 15px; }
+
 .company-title {
   color: black; }
 
 .company-main-logo {
-  width: 33px; }
+  width: 40px;
+  margin: 0 auto; }
 
 .herobanner-background-size {
   position: absolute;
@@ -41,10 +47,16 @@ body {
   text-align: center;
   color: white;
   background-color: #44443f;
-  padding: 10px; }
+  padding: 10px;
+  width: 100%;
+  list-style: none; }
 
 .nav-tab-color + .nav-tab-color {
   border-left: solid 1px white; }
+
+.advertisement {
+  width: 300px;
+  margin: 0 auto; }
 
 .avatar-wrapper-circle {
   width: 100px;
@@ -66,28 +78,35 @@ body {
 
 .searched-username {
   width: 80%;
-  font-size: 18px; }
+  font-size: 18px;
+  margin: 10px auto;
+  padding: 5px; }
 
 .searched-email {
   width: 70%;
-  font-size: 14px; }
+  font-size: 14px;
+  padding: 5px; }
 
 .avatar-pic-size {
-  height: 100%; }
+  height: 100%;
+  width: 100%; }
 
 .search-bar-wrapper {
   background-color: white;
-  height: 25px; }
+  height: 30px;
+  padding: 5px; }
 
 .search-bar-color {
   color: white;
   background-color: black;
   width: 70%;
+  height: 20px;
   display: inline-block;
   margin: 1%; }
 
 .search-action-size {
   width: 20%;
+  height: 20px;
   display: inline-block; }
 
 .add-make-money {
@@ -119,18 +138,21 @@ body {
   border-radius: 50% 50%;
   color: white;
   cursor: pointer;
-  margin: 0 auto; }
+  margin: 0 auto;
+  border: solid 2px #ba1f33; }
 
 .bio-content-hidden {
-  height: 0;
-  border-top: solid 4px #ba1f33;
-  transition: 1s;
-  overflow: hidden; }
+  height: 0px;
+  transition: 0.5s;
+  overflow: hidden;
+  padding: 0px; }
 
 .bio-content-showing {
-  height: 100%;
-  border-top: solid 4px #ba1f33;
-  transition: 1s; }
+  height: 100px;
+  transition: 0.5s;
+  padding: 15px;
+  overflow: hidden;
+  overflow-y: auto; }
 
 .bio-wrapper-position {
   position: relative; }
@@ -161,7 +183,8 @@ body {
   justify-content: space-around; }
 
 .post-img-blur {
-  filter: blur(2px); }
+  filter: blur(2px);
+  width: 100%; }
 
 .social-btn-size {
   background-color: white;
@@ -169,17 +192,29 @@ body {
   width: 38px;
   border-radius: 50% 50%; }
 
+.social-facebook {
+  background-image: url("/assets/facebook.png");
+  background-size: contain; }
+
+.social-twitter {
+  background-image: url("/assets/twitter.png");
+  background-size: contain; }
+
 .more-btn-size {
-  background-color: red;
+  background-color: #050505;
   height: 55px;
   width: 55px;
-  border-radius: 50% 50%; }
+  border-radius: 50% 50%;
+  color: white;
+  cursor: pointer;
+  border: solid 2px #ba1f33; }
 
 .related-component {
   width: 150px;
   display: inline-block;
   border: 2px solid white;
   padding: 3%;
+  margin: 10px;
   background-color: black; }
 
 .btn-more-size {
@@ -199,8 +234,10 @@ body {
 
 .related-elements-container {
   position: relative;
-  width: 160%;
-  padding: 20px; }
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: space-between; }
 
 .container-hidden-content {
   overflow: hidden;

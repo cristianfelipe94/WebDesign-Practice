@@ -8,7 +8,7 @@
 }
 
 .searched-user-component {
-margin: 3% auto;
+	margin: 3% auto;
 }
 
 .searched-username, .searched-email {
@@ -22,32 +22,39 @@ margin: 3% auto;
 .searched-username {
 	width: 80%;
 	font-size: 18px;
+	margin: 10px auto;
+	padding: 5px;
 }
 
 .searched-email {
 	width: 70%;
 	font-size: 14px;
+	padding: 5px;
 }
 
 .avatar-pic-size {
 	height: 100%;
+	width: 100%;
 }
 
 .search-bar-wrapper {
 	background-color: white;
-	height: 25px;
+	height: 30px;
+	padding: 5px;
 }
 
 .search-bar-color {
 	color: white;
 	background-color: black;
 	width: 70%;
+	height: 20px;
 	display: inline-block;
 	margin: 1%;
 }
 
 .search-action-size {
 	width: 20%;
+	height: 20px;
 	display: inline-block;
 }
 

@@ -5,12 +5,20 @@
 	overflow: hidden;
 }
 
+.company-icon-position {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 15px;
+}
+
 .company-title {
 	color: black
 }
 
 .company-main-logo {
-	width: 33px;
+	width: 40px;
+	margin: 0 auto;
 }
 
 .herobanner-background-size {
@@ -32,6 +40,8 @@
 	color: white;
 	background-color: #44443f;
 	padding: 10px;
+	width: 100%;
+	list-style: none;
 }
 
 .nav-tab-color + .nav-tab-color  {

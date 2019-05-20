@@ -28,19 +28,22 @@
 	color: white;
 	cursor: pointer;
 	margin: 0 auto;
+	border: solid 2px #ba1f33;
 }
 
 .bio-content-hidden {
-	height: 0;
-	border-top: solid 4px #ba1f33;
-	transition: 1s;
+	height: 0px;
+	transition: 0.5s;
 	overflow: hidden;
+	padding: 0px;
 }
 
 .bio-content-showing {
-	height: 100%;
-	border-top: solid 4px #ba1f33;
-	transition: 1s;
+	height: 100px;
+	transition: 0.5s;
+	padding: 15px;
+	overflow: hidden;
+	overflow-y: auto;
 }
 
 .bio-wrapper-position {
@@ -79,6 +82,7 @@
 
 .post-img-blur {
 	filter: blur(2px);
+	width: 100%;
 }
 
 .social-btn-size {
@@ -86,11 +90,25 @@
 	height: 38px;
 	width: 38px;
 	border-radius: 50% 50%;
+
+}
+
+.social-facebook {
+	background-image: url("/assets/facebook.png");
+	background-size: contain;
+}
+
+.social-twitter {
+	background-image: url("/assets/twitter.png");
+	background-size: contain;
 }
 
 .more-btn-size {
-	background-color: red;
+	background-color: #050505;
 	height: 55px;
 	width: 55px;
 	border-radius: 50% 50%;
+	color: white;
+	cursor: pointer;
+	border: solid 2px #ba1f33;
 }
