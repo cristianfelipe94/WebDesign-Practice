@@ -1,0 +1,48 @@
+.related-component {
+	width: 150px;
+	display: inline-block;
+	border: 2px solid white;
+	padding: 3%;
+	margin: 10px;
+	background-color: black;
+}
+
+.btn-more-size {
+	color: white;
+	border: none;
+	background-color: transparent;
+	text-align: left;
+	padding: 2%;
+	position: absolute;
+	bottom: 0;
+}
+
+.rel-post-inf {
+	position: relative;
+	background-color: #262626;
+	height: 103px;
+	padding: 5%;
+}
+
+.related-elements-container {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+	justify-content: space-between;
+}
+
+.container-hidden-content {
+	overflow: hidden;
+	overflow-x: auto;
+}
+
+.related-image-size {
+	height: 124px;
+	position: relative;
+	overflow: hidden;
+}
+
+.related-avatar-size {
+	height: 100%;
+}
