@@ -71,9 +71,16 @@
 	padding: 10px;
 }
 
-.post-img-size {
+.post-container-hidden {
 	height: 80px;
 	overflow: hidden;
+	transition: 1;
+}
+
+.post-container-showing {
+	height: auto;
+	overflow: hidden;
+	transition: 1;
 }
 
 .interaction-post-display {
@@ -83,6 +90,11 @@
 
 .post-img-blur {
 	filter: blur(2px);
+	width: 100%;
+}
+
+.post-img-Noblur {
+	filter: blur(0px);
 	width: 100%;
 }
 
