@@ -321,5 +321,56 @@ body {
 
   .post-comp-eight {
     grid-area: post8; } }
+@media only screen and (min-width: 900px) {
+  .head-component-size {
+    height: 300px; }
+
+  .post-frame-border {
+    width: 70%; }
+
+  .post-img-size {
+    width: 90%;
+    margin: 0 auto;
+    height: 100px; }
+
+  .date-container {
+    padding: 10px 30px; }
+
+  .related-component {
+    width: 200px; }
+
+  .posts-section {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-areas: "title title title" "post1 post2 post3" "post4 post5 post6" "post7 post8 -";
+    grid-gap: 10px; }
+
+  .title-section {
+    grid-area: title; }
+
+  .post-comp-one {
+    grid-area: post1; }
+
+  .post-comp-two {
+    grid-area: post2; }
+
+  .post-comp-three {
+    grid-area: post3; }
+
+  .post-comp-four {
+    grid-area: post4; }
+
+  .post-comp-five {
+    grid-area: post5; }
+
+  .post-comp-six {
+    grid-area: post6; }
+
+  .post-comp-seven {
+    grid-area: post7; }
+
+  .post-comp-eight {
+    grid-area: post8; } }
 
 /*# sourceMappingURL=style.css.map */
