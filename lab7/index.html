@@ -8,15 +8,15 @@
   <title>Document</title>
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header" id="js-site-header">
     <!-- Logo -->
-    <div class="site-header__logo">
+    <div class="site-header__logo" id="js-logo-wrapper">
       <a href="#">
         <img src="logo.svg" width="130" height="112">
       </a>
     </div>
-    <div class="site-header__content">
-      <div class="site-header__top-links">
+    <div class="site-header__content" id="js-header-content">
+      <div class="site-header__top-links" id="js-header-links">
         <!-- Language switcher -->
         <ul class="site-header__language-switcher">
           <li href="#"><a class="active" href="#">English</a></li>
@@ -25,10 +25,10 @@
         </ul>
       </div>
       <!-- Search form -->
-      <div class="site-header__search">
+      <div class="site-header__search" id="js-search-header">
         <form>
           <label for="search" class="sr-only"></label>
-          <input type="text" id="search" placeholder="Search"/>
+          <input type="text" class="search-bar" id="search" placeholder="Search"/>
           <input type="submit" value="" id="submit-logo">
         </form>
       </div>
