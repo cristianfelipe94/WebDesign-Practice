@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.nav-menu {
+  background-color: deeppink;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.nav-menu__action {
+  border-radius: unset;
+  background-color: transparent;
+  border: none;
+  font-size: 50px;
+  margin: 0 auto;
+  display: block;
+}
+
+.withJS .nav-menu__items-hidden {
+  height: 1px;
+  width: 100px;
+  overflow: hidden;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+  transition: 2s ease;
+}
+
+.nav-menu-links {
+  list-style: none;
+  font-size: 20px;
+  border-bottom: 1px solid white;
+  padding: 2%;
+  transition: 1s;
+}
+
+.withJS .nav-menu__items-show {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+  transition: 2s ease;
+  overflow: hidden;
+}
+
+.withJS .nav-menu-links {
+  list-style: none;
+  font-size: 20px;
+  border-bottom: 1px solid white;
+  padding: 20%;
+  transition: 1s;
+}
+
+.nav-menu-links:hover {
+  background-color: rgb(199, 9, 113);
+  transition: 0.8s;
+}
+
+.withJS .body-hidden {
+  overflow: hidden;
+}
+
+.withJS .body-show {
+  overflow: unset;
+}
