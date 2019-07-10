@@ -34,7 +34,7 @@ function preloadImage(img) {
     if (!srcAttribute) {
         return;
     }
-    img.srcAttribute = srcAttribute;
+    img.src = srcAttribute;
 }
 
 // Register a Callback and a Config Object with an instance of IntersectionObserver.
