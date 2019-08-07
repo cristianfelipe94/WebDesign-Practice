@@ -1,0 +1,64 @@
+@media screen and (max-width: 800px) {
+	.poster-position {
+    width: 50.4vw;
+	}
+
+	.album-grid {
+		padding: 5% 4%;
+	}
+	
+	.opener-circle-opened {
+		width: 80px;
+		height: 80px;
+    left: -65vw;
+    border: double black 10px;
+	}
+
+	.seal-circle {
+    font-size: 0.5rem;
+    padding: 10px;
+	}
+
+	.opener-circle-closed {
+    width: 80px;
+    height: 80px;
+    border: double black 10px;
+	}
+
+	.pinkFloyd-grid {
+    font-size: 2rem;
+	}
+
+	.album-grid {
+		font-size: 0.9rem;
+	}
+
+	.year-grid {
+		font-size: 1.5rem;
+	}
+
+	.date-grid {
+    font-size: 1rem;
+	}
+
+	.hall-grid {
+		font-size: 1rem;
+	}
+
+	.live-grid {
+		font-size: 1.2rem;
+	}
+
+	.on-grid {
+		font-size: 1rem;
+	}
+
+	.stage-grid {
+		font-size: 1.2rem;
+	}
+
+	.members-grid {
+    font-size: 1rem;
+		padding: 5% 2%;
+	}
+}

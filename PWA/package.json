@@ -1,0 +1,20 @@
+{
+  "name": "PWA-Lazyloading",
+  "version": "1.0.0",
+  "description": "This is a test for PWA and Lazyloading.",
+  "main": "script.js",
+  "scripts": {
+    "format": "prettier \"*.{js,html}\" --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Felipe",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^1.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0"
+  }
+}

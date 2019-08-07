@@ -1,0 +1,52 @@
+.main-wrapper {
+	height: 100vh;
+	width: 100vw;
+}
+
+.slide-wrapper_left {
+	overflow: hidden;
+	width: 50%;
+	position: relative;
+	height: 100vh;
+	float: left;
+}
+
+.slide-wrapper_right {
+	overflow: hidden;
+	width: 50%;
+	position: relative;
+	height: 100vh;
+	float: right;
+}
+
+.slide-image-left {
+	position: absolute;
+	right: 0;
+	height: 100%;
+	width: auto;
+	transition: 2s;
+}
+
+.slide-image-right {
+	position: absolute;
+	left: 0vw;
+	height: 100%;
+	width: auto;
+	transition: 2s;
+}
+
+.slide-opened-left {
+	position: absolute;
+	height: 100%;
+	width: auto;
+	right: 25vw;
+	transition: 2s;
+}
+
+.slide-opened-right {
+	position: absolute;
+	height: 100%;
+	width: auto;
+	left: 25vw;
+	transition: 2s;
+}

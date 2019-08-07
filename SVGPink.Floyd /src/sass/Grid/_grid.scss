@@ -1,0 +1,116 @@
+.poster-position {
+	background-color: white;
+	height: 65.1vh;
+	width: 50.2vw;
+	z-index: -1;
+	overflow: hidden;
+	left: 25vw;
+	position: absolute;
+	display: grid;
+	margin: 12.5vh auto;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: auto;
+	grid-template-areas: "album album album" "floydFloyd floydFloyd floydFloyd" ". year ." "date date date" "hall hall hall" "live on stage" "members members members";
+	border-top: solid 3.5vh;
+	border-bottom: solid 1.9vh;
+}
+
+.background-album-active {
+	position: absolute;
+	width: 100%;
+	height: -webkit-fill-available;
+	z-index: -1;
+	transform: scale(1);
+	transition: 1;
+	animation: nebulaMoving 5s infinite ease;
+}
+
+.album-grid {
+	grid-area: album;
+	font-size: 2rem;
+	margin: 0;
+	padding-top: 10%;
+	text-align: center;
+}
+
+.pinkFloyd-grid {
+	grid-area: floydFloyd;
+	color: red;
+	font-size: 5rem;
+	margin: 0;
+	text-align: center;
+}
+
+.year-grid {
+	grid-area: year;
+	color: red;
+	font-size: 3rem;
+	margin: 0;
+	text-align: center;
+}
+
+.date-grid {
+	grid-area: date;
+	font-size: 2rem;
+	margin: 0;
+	text-align: center;
+}
+
+.hall-grid {
+	grid-area: hall;
+	font-size: 2rem;
+	margin: 0;
+	text-align: center;
+}
+
+.live-grid {
+	grid-area: live;
+	font-size: 2.5rem;
+	margin: 0;
+	text-align: right;
+}
+
+.on-grid {
+	grid-area: on;
+	font-size: 2rem;
+	margin: 0;
+	text-align: center;
+}
+
+.stage-grid {
+	grid-area: stage;
+	font-size: 2.5rem;
+	margin: 0;
+	text-align: left;
+}
+
+.members-grid {
+	grid-area: members;
+	font-size: 2rem;
+	margin: 0;
+	text-align: center;
+}
+
+@keyframes nebulaMoving {
+	0%{
+		transform: scale(1) rotate(0deg);
+	}
+	50%{
+		transform: scale(1.4) rotate(5deg);
+	}
+	90%{
+		transform: scale(1) rotate(0deg);
+	}
+}
+
+@keyframes textMoving {
+	0%{
+		text-shadow: 0px 5px 1px #000;
+	}
+	50%{
+		text-shadow: 0px 15px 5px #000;
+	}
+	90%{
+		text-shadow: 0px 5px 1px #000;
+	}
+}
